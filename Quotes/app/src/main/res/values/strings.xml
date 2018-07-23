@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quotes</string>
+    <string-array name="myQuotes">
+        <item>\"If it\'s the thought that counts, then I should probably be in jail"</item>
+        <item>\"I\'ve taken up Photography beause it\'s the only hobby here you can shoot people and cut their heads off without going to jail"</item>
+        <item>\"Sometimes I wish I was a bird... So I could fly over certain people and poop on their heads!"</item>
+        <item>\"My teacher pointed me with his ruler and said:"At the end of this ruler there's an idiot! I got detention after asking which end."</item>
+        <item>\"One way to find out if you are old is to fall down in front of a lot of people. If they laugh, you\'re still young. If they panic and start running to you, you\'re old"</item>
+
+
+    </string-array>
+</resources>

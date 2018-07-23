@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary">
+
+    <TextView
+        android:textColor="@color/colorTextPrimary"
+        android:background="@color/colorTextViewBackground"
+        android:textStyle="bold"
+        android:textSize="@dimen/txtTitle"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:id="@+id/txttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="DISCOUNT CALCULATOR" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:maxLength="7"
+        android:textColor="@color/colorTextSecondary"
+        android:textColorHint="@color/colorTextSecondary"
+        android:textSize="@dimen/edtMeal"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:id="@+id/edtCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Item Cost"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:textColor="@color/colorTextSecondary"
+        android:textColorHint="@color/colorTextSecondary"
+        android:textSize="@dimen/txtSelect"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:id="@+id/txtSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Select Discount Percentage" />
+
+    <TextView
+        android:textColor="@color/colorTextSecondary"
+        android:textColorHint="@color/colorTextSecondary"
+        android:textSize="@dimen/txtPercentage"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:id="@+id/txtPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="15%" />
+
+    <SeekBar
+        android:progress="15"
+        android:max="90"
+        android:layout_margin="@dimen/margin"
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="@color/colorTextPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="@dimen/btnReset"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Reset" />
+
+    <TextView
+        android:textColor="@color/colorTextPrimary"
+        android:background="@color/colorTextViewBackground"
+        android:textStyle="bold"
+        android:textSize="@dimen/txtResult"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Result" />
+</LinearLayout>

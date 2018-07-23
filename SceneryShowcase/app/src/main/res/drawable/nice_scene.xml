@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/Nsone"></item>
+    <item android:drawable="@drawable/Nstwo"></item>
+    <item android:drawable="@drawable/Nsthree"></item>
+    <item android:drawable="@drawable/Nsfour"></item>
+    <item android:drawable="@drawable/Nsfive"></item>
+    <item android:drawable="@drawable/Nssix"></item>
+    <item android:drawable="@drawable/Nsseven"></item>
+    <item android:drawable="@drawable/Nseight"></item>
+    <item android:drawable="@drawable/Nsnine"></item>
+
+</selector>

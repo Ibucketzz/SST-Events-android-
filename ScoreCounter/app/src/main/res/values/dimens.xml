@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtTitle">32dp</dimen>
+    <dimen name="playerScore">140dp</dimen>
+    <dimen name="btnCount">50dp</dimen>
+    <dimen name="btnReset">80dp</dimen>
+</resources>

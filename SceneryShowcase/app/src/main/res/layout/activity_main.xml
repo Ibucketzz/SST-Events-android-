@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wanjianlun.sceneryshowcase.MainActivity">
+
+    <TextView
+        android:textColor="@color/colorSecondary"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_intro"
+        android:gravity="center"
+        android:id="@+id/txtIntro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Enjoy these sceneries! Press the button below to start showcase!"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:background="@color/colorAccent"
+        android:textSize="@dimen/text_more"
+        android:id="@+id/btnMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More amazing pitures. YAY!"
+        android:textStyle="bold|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorAccent"
+        android:textSize="@dimen/text_head"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:id="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scenery Showcase"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
